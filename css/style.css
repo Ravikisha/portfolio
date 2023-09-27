@@ -334,6 +334,12 @@ body {
   transform: rotate(90deg);
 }
 
+.open .hamburger-top,
+.open .hamburger-middle,
+.open .hamburger-bottom {
+  background: #fff;
+}
+
 .open .hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
 }
